@@ -4,9 +4,6 @@ from pyrogram.types import (Message,
                             InlineQueryResultArticle,InputTextMessageContent)
 from pyromod import listen
 
-api_id = "1272537"
-api_hash = "7cf7e855971ec61a606cc4ff5eaa3d1b"
-
 admin_user_id = 886415476
 
 app = Client("pm", config_file="config.ini")
